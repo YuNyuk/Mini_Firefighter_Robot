@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['fire']
+
+roboflow:
+  workspace: fire-59a9a
+  project: fire-detection-iufpz-ap1xa
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fire-59a9a/fire-detection-iufpz-ap1xa/dataset/1
